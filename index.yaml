@@ -87,6 +87,21 @@ entries:
     urls:
     - http://iomesh.com/charts/zbs-csi-driver-0.1.0.tgz
     version: 0.1.0
+  zbs-csi-driver-ocp:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2020-12-22T19:43:07.908933386+08:00"
+    description: |
+      The ZBS Container Storage Interface CSI Driver provides a CSI interface
+      used by Container Orchestrators to manage the lifecycle of ZBS volumes.
+    digest: 122edc478608b44a841bc03c387c8d8797f69a763c152c9afef6ac11fbba387a
+    home: http://iomesh.com
+    kubeVersion: ^1.11.0
+    name: zbs-csi-driver-ocp
+    type: application
+    urls:
+    - http://iomesh.com/charts/zbs-csi-driver-ocp-0.1.0.tgz
+    version: 0.1.0
   zbs-operator:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -105,4 +120,4 @@ entries:
     urls:
     - http://iomesh.com/charts/zbs-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-22T19:41:57.454563665+08:00"
+generated: "2020-12-22T19:43:07.906013583+08:00"
