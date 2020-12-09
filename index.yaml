@@ -11,6 +11,28 @@ entries:
     urls:
     - http://iomesh.com/charts/fioautomata-0.1.0.tgz
     version: 0.1.0
+  zbs:
+  - apiVersion: v2
+    appVersion: v5.0.0-rc5
+    created: "2020-12-09T15:22:03.3490787+08:00"
+    description: ZBS Chart
+    digest: ce4c5b21542b0a4e110992354ee136367dc76f1f3476b894e2bbe1e3431b0b7f
+    name: zbs
+    type: application
+    urls:
+    - http://iomesh.com/charts/zbs-0.1.0.tgz
+    version: 0.1.0
+  zbs-access:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-09T15:22:03.3496295+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 6b289a3d08b61426dc748949db9dd12268082a11822aee72a79f443f88ebacf7
+    name: zbs-access
+    type: application
+    urls:
+    - http://iomesh.com/charts/zbs-access-0.1.0.tgz
+    version: 0.1.0
   zbs-csi-driver:
   - apiVersion: v2
     appVersion: 2.0.0
@@ -54,4 +76,22 @@ entries:
     urls:
     - http://iomesh.com/charts/zbs-csi-driver-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-17T13:22:41.157613975+08:00"
+  zbs-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2020-12-09T15:22:03.3548194+08:00"
+    dependencies:
+    - name: zookeeper-operator
+      repository: https://charts.pravega.io
+      version: 0.2.8
+    - name: hostpath-provisioner
+      repository: https://charts.rimusz.net
+      version: 0.2.9
+    description: zbs-operator helping ZBS cluster management
+    digest: 3e36df76edab4c5ff54026b31d0e3959f4ac0f3eff1e5c6fc7d6d4a7c16d991a
+    name: zbs-operator
+    type: application
+    urls:
+    - http://iomesh.com/charts/zbs-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-09T15:22:03.3475429+08:00"
