@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  hostpath-provisioner:
+  - apiVersion: v2
+    appVersion: 0.5.1
+    created: "2020-12-22T19:32:59.149024247+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 0986b7f903e9a484c71f9cb6a301f4dd6d88c10f886651ebc3743b4597013118
+    name: hostpath-provisioner
+    type: application
+    urls:
+    - http://iomesh.com/charts/hostpath-provisioner-0.5.1.tgz
+    version: 0.5.1
   zbs:
   - apiVersion: v2
     appVersion: v5.0.0-rc5
@@ -54,7 +65,7 @@ entries:
   zbs-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-12-22T19:31:59.155295738+08:00"
+    created: "2020-12-22T19:32:59.151501643+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -69,4 +80,4 @@ entries:
     urls:
     - http://iomesh.com/charts/zbs-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-22T19:31:59.152813881+08:00"
+generated: "2020-12-22T19:32:59.14855012+08:00"
