@@ -3,7 +3,7 @@ entries:
   fioautomata:
   - apiVersion: v2
     appVersion: "3.13"
-    created: "2020-12-22T19:41:57.455061543+08:00"
+    created: "2020-12-29T15:13:01.549946926+08:00"
     description: A Helm chart for Kubernetes
     digest: fe3d1cc4ed3675df8fdb55c7c7bb8801d47bfde7c8d098df598ddcc9c344d9be
     name: fioautomata
@@ -14,9 +14,9 @@ entries:
   hostpath-provisioner:
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2020-12-22T19:32:59.149024247+08:00"
+    created: "2020-12-29T15:13:01.550592397+08:00"
     description: A Helm chart for Kubernetes
-    digest: 0986b7f903e9a484c71f9cb6a301f4dd6d88c10f886651ebc3743b4597013118
+    digest: 2674a011cccf7418147de6e39b9c42c7c45234b42557fd4f2e6bd64505ef3843
     name: hostpath-provisioner
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   zbs:
   - apiVersion: v2
     appVersion: v5.0.0-rc5
-    created: "2020-12-22T19:31:59.153252287+08:00"
+    created: "2020-12-29T15:13:01.551215516+08:00"
     description: ZBS Chart
-    digest: 884343d2e533f92b9fd28544348e8febaa5e0495f25b0d7f84508ed09f2ae8af
+    digest: 5630874035518fc68f69f4294744a559a930ef6549a68d750e5ebb7e0290a2df
     name: zbs
     type: application
     urls:
@@ -35,19 +35,30 @@ entries:
     version: 0.1.0
   zbs-access:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-12-22T19:31:59.153493281+08:00"
+    appVersion: 0.1.2
+    created: "2020-12-29T15:13:01.551758612+08:00"
     description: A Helm chart for Kubernetes
-    digest: 996d75950019e9e7e075dd68ce6cd2ccc5f0f73042e6f0193424701cb0c04711
+    digest: 52de4092faabc51f16ea39388eebb46af2a4bf0a1ea2974bdc29f5e7b9ee2842
     name: zbs-access
     type: application
     urls:
     - http://iomesh.com/charts/zbs-access-0.1.0.tgz
     version: 0.1.0
+  zbs-access-operator:
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2020-12-29T15:13:01.552380308+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 1f65bf097a1214cc18fdaacb0c4e4e210f8555c31f639ee89e5fb81fb1f599db
+    name: zbs-access-operator
+    type: application
+    urls:
+    - http://iomesh.com/charts/zbs-access-operator-0.1.0.tgz
+    version: 0.1.0
   zbs-csi-driver:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-11-06T15:12:32.259288241+08:00"
+    created: "2020-12-29T15:13:01.555378702+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -61,7 +72,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2020-12-22T19:30:49.365497971+08:00"
+    created: "2020-12-29T15:13:01.554259237+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -75,7 +86,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2020-10-21T14:26:44.948983809+08:00"
+    created: "2020-12-29T15:13:01.553350549+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -90,7 +101,7 @@ entries:
   zbs-csi-driver-ocp:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-12-22T19:43:07.908933386+08:00"
+    created: "2020-12-29T15:13:01.556516553+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -104,20 +115,20 @@ entries:
     version: 0.1.0
   zbs-operator:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2020-12-22T19:32:59.151501643+08:00"
+    appVersion: 0.1.2
+    created: "2020-12-29T15:13:01.560412227+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
       version: 0.2.8
     - name: hostpath-provisioner
-      repository: https://charts.rimusz.net
-      version: 0.2.9
+      repository: http://iomesh.com/charts
+      version: 0.5.1
     description: zbs-operator helping ZBS cluster management
-    digest: 13487b60124a1f2591e5bc37491518f82aa5e8f2dba1b128c9947230a1588c26
+    digest: c98367829b6df4efcbb60b55a380aace27291770d83d7ac44ecb2b2aeccc0151
     name: zbs-operator
     type: application
     urls:
     - http://iomesh.com/charts/zbs-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-22T19:43:07.906013583+08:00"
+generated: "2020-12-29T15:13:01.548946818+08:00"
