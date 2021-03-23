@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  csi-driver:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2021-03-23T22:38:59.364806305+08:00"
+    description: |
+      The IOMesh Container Storage Interface CSI Driver provides a CSI interface
+      used by Container Orchestrators to manage the lifecycle of IOMesh volumes.
+    digest: 4c4a224b02604b2f9b283d4a60c84cac8535f3a2fa71c6688b032bfc63ec3a37
+    home: http://iomesh.com
+    kubeVersion: ^1.17.0
+    name: csi-driver
+    type: application
+    urls:
+    - http://iomesh.com/charts/csi-driver-0.1.2.tgz
+    version: 0.1.2
   fioautomata:
   - apiVersion: v2
     appVersion: "3.13"
-    created: "2021-03-23T22:32:07.387921489+08:00"
+    created: "2021-03-23T22:38:59.367247397+08:00"
     description: A Helm chart for Kubernetes
     digest: fe3d1cc4ed3675df8fdb55c7c7bb8801d47bfde7c8d098df598ddcc9c344d9be
     name: fioautomata
@@ -14,7 +29,7 @@ entries:
   hostpath-provisioner:
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2021-03-23T22:32:07.399152637+08:00"
+    created: "2021-03-23T22:38:59.367914618+08:00"
     description: A Helm chart for Kubernetes
     digest: 2674a011cccf7418147de6e39b9c42c7c45234b42557fd4f2e6bd64505ef3843
     name: hostpath-provisioner
@@ -25,7 +40,7 @@ entries:
   iomesh:
   - apiVersion: v2
     appVersion: v5.0.0-rc5
-    created: "2021-03-23T22:32:07.401062221+08:00"
+    created: "2021-03-23T22:38:59.369482585+08:00"
     description: IOMesh Cluster Chart
     digest: 8b7c49b57aeddc908b270407bd2aa925b5d63bee32bcc71d8ffd199cdc15d624
     name: iomesh
@@ -36,7 +51,7 @@ entries:
   operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-23T22:32:07.406068713+08:00"
+    created: "2021-03-23T22:38:59.374995671+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -54,7 +69,7 @@ entries:
   zbs:
   - apiVersion: v2
     appVersion: v5.0.0-rc5
-    created: "2021-03-23T22:32:07.407158696+08:00"
+    created: "2021-03-23T22:38:59.376416669+08:00"
     description: ZBS Chart
     digest: 5630874035518fc68f69f4294744a559a930ef6549a68d750e5ebb7e0290a2df
     name: zbs
@@ -65,7 +80,7 @@ entries:
   zbs-access:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-23T22:32:07.407538615+08:00"
+    created: "2021-03-23T22:38:59.377176564+08:00"
     description: A Helm chart for Kubernetes
     digest: 52de4092faabc51f16ea39388eebb46af2a4bf0a1ea2974bdc29f5e7b9ee2842
     name: zbs-access
@@ -76,7 +91,7 @@ entries:
   zbs-access-operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-23T22:32:07.408637133+08:00"
+    created: "2021-03-23T22:38:59.377910348+08:00"
     description: A Helm chart for Kubernetes
     digest: 1f65bf097a1214cc18fdaacb0c4e4e210f8555c31f639ee89e5fb81fb1f599db
     name: zbs-access-operator
@@ -87,7 +102,7 @@ entries:
   zbs-csi-driver:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2021-03-23T22:32:07.416166754+08:00"
+    created: "2021-03-23T22:38:59.383313735+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -101,7 +116,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2021-03-23T22:32:07.411989188+08:00"
+    created: "2021-03-23T22:38:59.380755345+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -115,7 +130,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-23T22:32:07.410180018+08:00"
+    created: "2021-03-23T22:38:59.379390562+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -130,7 +145,7 @@ entries:
   zbs-csi-driver-ocp:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2021-03-23T22:32:07.41847408+08:00"
+    created: "2021-03-23T22:38:59.384779286+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -145,7 +160,7 @@ entries:
   zbs-operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-23T22:32:07.422437372+08:00"
+    created: "2021-03-23T22:38:59.391015155+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -160,4 +175,4 @@ entries:
     urls:
     - http://iomesh.com/charts/zbs-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-23T22:32:07.385501862+08:00"
+generated: "2021-03-23T22:38:59.36229052+08:00"
