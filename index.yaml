@@ -3,7 +3,7 @@ entries:
   csi-driver:
   - apiVersion: v2
     appVersion: v2.1.0
-    created: "2021-03-25T14:58:06.087604002+08:00"
+    created: "2021-03-25T15:17:39.796023388+08:00"
     description: |
       The IOMesh Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of IOMesh volumes.
@@ -13,45 +13,45 @@ entries:
     name: csi-driver
     type: application
     urls:
-    - csi-driver-0.1.2.tgz
+    - http://iomesh.com/charts/csi-driver-0.1.2.tgz
     version: 0.1.2
   fioautomata:
   - apiVersion: v2
     appVersion: "3.13"
-    created: "2021-03-25T14:58:06.088390095+08:00"
+    created: "2021-03-25T15:17:39.797474786+08:00"
     description: A Helm chart for Kubernetes
     digest: fe3d1cc4ed3675df8fdb55c7c7bb8801d47bfde7c8d098df598ddcc9c344d9be
     name: fioautomata
     type: application
     urls:
-    - fioautomata-0.1.0.tgz
+    - http://iomesh.com/charts/fioautomata-0.1.0.tgz
     version: 0.1.0
   hostpath-provisioner:
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2021-03-25T14:58:06.089223702+08:00"
+    created: "2021-03-25T15:17:39.798045843+08:00"
     description: A Helm chart for Kubernetes
     digest: 2674a011cccf7418147de6e39b9c42c7c45234b42557fd4f2e6bd64505ef3843
     name: hostpath-provisioner
     type: application
     urls:
-    - hostpath-provisioner-0.5.1.tgz
+    - http://iomesh.com/charts/hostpath-provisioner-0.5.1.tgz
     version: 0.5.1
   iomesh:
   - apiVersion: v2
     appVersion: v5.0.0-rc5
-    created: "2021-03-25T14:58:06.090206931+08:00"
+    created: "2021-03-25T15:17:39.79975136+08:00"
     description: IOMesh Cluster Chart
-    digest: ed95b926edd7bd1829802f35673eb637dd81ebc56779e910dd0be38d800f361c
+    digest: dc360b470c9fe71fef38367e217d2da6a6f4b9c1f8738de7c8b6a3488df3a431
     name: iomesh
     type: application
     urls:
-    - iomesh-0.1.0.tgz
+    - http://iomesh.com/charts/iomesh-0.1.0.tgz
     version: 0.1.0
   operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-25T14:58:06.094124591+08:00"
+    created: "2021-03-25T15:17:39.808068184+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -64,6 +64,6 @@ entries:
     name: operator
     type: application
     urls:
-    - operator-0.1.0.tgz
+    - http://iomesh.com/charts/operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-25T14:58:06.085679136+08:00"
+generated: "2021-03-25T15:17:39.795213404+08:00"
