@@ -3,7 +3,7 @@ entries:
   csi-driver:
   - apiVersion: v2
     appVersion: v2.1.0
-    created: "2021-03-25T11:55:34.744668832+08:00"
+    created: "2021-03-25T14:40:08.370831543+08:00"
     description: |
       The IOMesh Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of IOMesh volumes.
@@ -13,45 +13,45 @@ entries:
     name: csi-driver
     type: application
     urls:
-    - http://iomesh.com/charts/csi-driver-0.1.2.tgz
+    - csi-driver-0.1.2.tgz
     version: 0.1.2
   fioautomata:
   - apiVersion: v2
     appVersion: "3.13"
-    created: "2021-03-25T11:55:34.745171907+08:00"
+    created: "2021-03-25T14:40:08.371571298+08:00"
     description: A Helm chart for Kubernetes
     digest: fe3d1cc4ed3675df8fdb55c7c7bb8801d47bfde7c8d098df598ddcc9c344d9be
     name: fioautomata
     type: application
     urls:
-    - http://iomesh.com/charts/fioautomata-0.1.0.tgz
+    - fioautomata-0.1.0.tgz
     version: 0.1.0
   hostpath-provisioner:
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2021-03-25T11:55:34.74838078+08:00"
+    created: "2021-03-25T14:40:08.37226086+08:00"
     description: A Helm chart for Kubernetes
     digest: 2674a011cccf7418147de6e39b9c42c7c45234b42557fd4f2e6bd64505ef3843
     name: hostpath-provisioner
     type: application
     urls:
-    - http://iomesh.com/charts/hostpath-provisioner-0.5.1.tgz
+    - hostpath-provisioner-0.5.1.tgz
     version: 0.5.1
   iomesh:
   - apiVersion: v2
     appVersion: v5.0.0-rc5
-    created: "2021-03-25T11:55:34.749837569+08:00"
+    created: "2021-03-25T14:40:08.373223075+08:00"
     description: IOMesh Cluster Chart
     digest: 424834bf31d208e09af2679b8f13bfd5d3a98d8d0a73c93a77eca5fdce4cbf60
     name: iomesh
     type: application
     urls:
-    - http://iomesh.com/charts/iomesh-0.1.0.tgz
+    - iomesh-0.1.0.tgz
     version: 0.1.0
   operator:
   - apiVersion: v2
-    appVersion: 0.9.0
-    created: "2021-03-25T11:55:34.755005375+08:00"
+    appVersion: 0.1.2
+    created: "2021-03-25T14:40:08.376692734+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -60,49 +60,49 @@ entries:
       repository: http://iomesh.com/charts
       version: 0.5.1
     description: IOMesh Operator helping IOMesh cluster management
-    digest: 3dfb10865d8c6b73cf826c76e33f0d70e592272f4428c2c199e1af152a0af2c2
+    digest: 4a6fc9aea76dd9bc482281c4b7199bcba5092848bce67715cfed70a636669d14
     name: operator
     type: application
     urls:
-    - http://iomesh.com/charts/operator-0.1.0.tgz
+    - operator-0.1.0.tgz
     version: 0.1.0
   zbs:
   - apiVersion: v2
     appVersion: v5.0.0-rc5
-    created: "2021-03-25T11:55:34.755527166+08:00"
+    created: "2021-03-25T14:40:08.377599221+08:00"
     description: ZBS Chart
     digest: 5630874035518fc68f69f4294744a559a930ef6549a68d750e5ebb7e0290a2df
     name: zbs
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-0.1.0.tgz
+    - zbs-0.1.0.tgz
     version: 0.1.0
   zbs-access:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-25T11:55:34.756356261+08:00"
+    created: "2021-03-25T14:40:08.378336818+08:00"
     description: A Helm chart for Kubernetes
     digest: 52de4092faabc51f16ea39388eebb46af2a4bf0a1ea2974bdc29f5e7b9ee2842
     name: zbs-access
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-access-0.1.0.tgz
+    - zbs-access-0.1.0.tgz
     version: 0.1.0
   zbs-access-operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-25T11:55:34.757205673+08:00"
+    created: "2021-03-25T14:40:08.379150019+08:00"
     description: A Helm chart for Kubernetes
     digest: 1f65bf097a1214cc18fdaacb0c4e4e210f8555c31f639ee89e5fb81fb1f599db
     name: zbs-access-operator
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-access-operator-0.1.0.tgz
+    - zbs-access-operator-0.1.0.tgz
     version: 0.1.0
   zbs-csi-driver:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2021-03-25T11:55:34.765281155+08:00"
+    created: "2021-03-25T14:40:08.382877112+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -112,11 +112,11 @@ entries:
     name: zbs-csi-driver
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-csi-driver-0.1.2.tgz
+    - zbs-csi-driver-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2021-03-25T11:55:34.762862327+08:00"
+    created: "2021-03-25T14:40:08.381432563+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -126,11 +126,11 @@ entries:
     name: zbs-csi-driver
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-csi-driver-0.1.1.tgz
+    - zbs-csi-driver-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-25T11:55:34.75918228+08:00"
+    created: "2021-03-25T14:40:08.380284521+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -140,12 +140,12 @@ entries:
     name: zbs-csi-driver
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-csi-driver-0.1.0.tgz
+    - zbs-csi-driver-0.1.0.tgz
     version: 0.1.0
   zbs-csi-driver-ocp:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2021-03-25T11:55:34.766532582+08:00"
+    created: "2021-03-25T14:40:08.384328242+08:00"
     description: |
       The ZBS Container Storage Interface CSI Driver provides a CSI interface
       used by Container Orchestrators to manage the lifecycle of ZBS volumes.
@@ -155,12 +155,12 @@ entries:
     name: zbs-csi-driver-ocp
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-csi-driver-ocp-0.1.1.tgz
+    - zbs-csi-driver-ocp-0.1.1.tgz
     version: 0.1.1
   zbs-operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-03-25T11:55:34.770725425+08:00"
+    created: "2021-03-25T14:40:08.389689691+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -173,6 +173,6 @@ entries:
     name: zbs-operator
     type: application
     urls:
-    - http://iomesh.com/charts/zbs-operator-0.1.0.tgz
+    - zbs-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-25T11:55:34.741974532+08:00"
+generated: "2021-03-25T14:40:08.368996067+08:00"
