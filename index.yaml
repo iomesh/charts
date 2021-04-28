@@ -3,8 +3,10 @@ entries:
   csi-driver:
   - apiVersion: v2
     appVersion: v2.1.0
-    created: "2021-04-28T14:15:17.464572859+08:00"
-    description: 'The IOMesh Container Storage Interface CSI Driver provides a CSI interface used by Container Orchestrators to manage the lifecycle of IOMesh volumes. '
+    created: "2021-04-28T17:40:09.202682879+08:00"
+    description: |
+      The IOMesh Container Storage Interface CSI Driver provides a CSI interface
+      used by Container Orchestrators to manage the lifecycle of IOMesh volumes.
     digest: b0563e08a8280d76e0087e28365eeb09f3fae9d5dbc53768f7e4e365d6448dc7
     home: http://iomesh.com
     kubeVersion: ^1.17.0
@@ -16,7 +18,7 @@ entries:
   fioautomata:
   - apiVersion: v2
     appVersion: "3.13"
-    created: "2021-04-28T14:15:17.465322144+08:00"
+    created: "2021-04-28T17:40:09.203425523+08:00"
     description: A Helm chart for Kubernetes
     digest: fe3d1cc4ed3675df8fdb55c7c7bb8801d47bfde7c8d098df598ddcc9c344d9be
     name: fioautomata
@@ -27,7 +29,7 @@ entries:
   hostpath-provisioner:
   - apiVersion: v2
     appVersion: 0.5.1
-    created: "2021-04-28T14:15:17.465987779+08:00"
+    created: "2021-04-28T17:40:09.204213111+08:00"
     description: A Helm chart for Kubernetes
     digest: 2674a011cccf7418147de6e39b9c42c7c45234b42557fd4f2e6bd64505ef3843
     name: hostpath-provisioner
@@ -38,17 +40,17 @@ entries:
   iomesh:
   - apiVersion: v2
     appVersion: v5.0.0-rc28
-    created: "2021-04-28T14:15:17.470220962+08:00"
+    created: "2021-04-28T17:40:09.206225527+08:00"
     description: IOMesh Cluster Chart
-    digest: 3f7b4a5d73bf8d4dbcafc579f0d19e165ea28c77c2202c70b75d1a52f109ec50
+    digest: bb3a5bb6ffe61abaa8ea465474fa7c9ecffb7892ba5e313b16481f46e66e0cb9
     name: iomesh
     type: application
     urls:
     - iomesh-v0.9.6.tgz
-    version: 0.9.6
+    version: v0.9.6
   - apiVersion: v2
     appVersion: v5.0.0-rc22
-    created: "2021-04-28T14:15:17.468891389+08:00"
+    created: "2021-04-28T17:40:09.205192566+08:00"
     description: IOMesh Cluster Chart
     digest: 72f50a9ba84c182a0250583704e7e4b4fa6db54feebb37d362de41f3037ae01c
     name: iomesh
@@ -56,20 +58,10 @@ entries:
     urls:
     - iomesh-v0.9.5.tgz
     version: v0.9.5
-  - apiVersion: v2
-    appVersion: v5.0.0-rc5
-    created: "2021-04-28T14:15:17.4674628+08:00"
-    description: IOMesh Cluster Chart
-    digest: dc360b470c9fe71fef38367e217d2da6a6f4b9c1f8738de7c8b6a3488df3a431
-    name: iomesh
-    type: application
-    urls:
-    - iomesh-0.1.0.tgz
-    version: 0.1.0
   operator:
   - apiVersion: v2
-    appVersion: 0.9.6
-    created: "2021-04-28T14:15:17.508507444+08:00"
+    appVersion: v0.9.6
+    created: "2021-04-28T17:40:09.214803103+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -78,15 +70,15 @@ entries:
       repository: http://iomesh.com/charts
       version: 0.5.1
     description: IOMesh Operator helping IOMesh cluster management
-    digest: 75c769a71f93639cba936af3e64ac64bf9555a42eb7b713f9049e5ee6ed2f6c2
+    digest: 513ce6a2b1d2e3a06b1450f9882c7da3b4071696bb8c92600d707e8c575e525c
     name: operator
     type: application
     urls:
     - operator-v0.9.6.tgz
-    version: 0.9.6
+    version: v0.9.6
   - apiVersion: v2
     appVersion: v0.9.5
-    created: "2021-04-28T14:15:17.50435713+08:00"
+    created: "2021-04-28T17:40:09.210077603+08:00"
     dependencies:
     - name: zookeeper-operator
       repository: https://charts.pravega.io
@@ -101,21 +93,4 @@ entries:
     urls:
     - operator-v0.1.1.tgz
     version: v0.1.1
-  - apiVersion: v2
-    appVersion: 0.1.2
-    created: "2021-04-28T14:15:17.475598006+08:00"
-    dependencies:
-    - name: zookeeper-operator
-      repository: https://charts.pravega.io
-      version: 0.2.8
-    - name: hostpath-provisioner
-      repository: http://iomesh.com/charts
-      version: 0.5.1
-    description: IOMesh Operator helping IOMesh cluster management
-    digest: 408571f67ac5cfc306e2b44c4b271c60bcde904dd89681cc80eddf358acafc3b
-    name: operator
-    type: application
-    urls:
-    - operator-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-04-28T14:15:17.46153408+08:00"
+generated: "2021-04-28T17:40:09.200932739+08:00"
